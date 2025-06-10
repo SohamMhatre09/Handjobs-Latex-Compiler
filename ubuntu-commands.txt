@@ -1,0 +1,11 @@
+# Commands to run on your Ubuntu server
+
+# 1. Copy the setup-https.sh script content to your server
+# You can use nano to create the file:
+nano setup-https.sh
+
+# 2. Make it executable
+chmod +x setup-https.sh
+
+# 3. Run the setup script
+./setup-https.sh
