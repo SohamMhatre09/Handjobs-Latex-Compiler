@@ -38,7 +38,7 @@ sudo systemctl stop nginx 2>/dev/null || true
 # Get SSL certificate
 sudo certbot certonly --standalone \
     -d latex-compiler.handjobs.co.in \
-    --email admin@handjobs.co.in \
+    --email teamhandjobs.co.in@gmail.com \
     --agree-tos --non-interactive
 
 # 4. Start services with Docker Compose
